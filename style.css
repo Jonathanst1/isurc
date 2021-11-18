@@ -1,0 +1,533 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFDC11;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: rgb(2, 2, 58);
+}
+.logodataprev img {
+    max-width: 100px;
+    height: 70px;
+    padding: 30px;
+    left: 20px;
+
+}
+.logoCloud img {
+    
+    max-width: 90px;
+    height: 80px;
+    padding:30px;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff5f5;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #ffbc3b;
+    color: #FFFFFF;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/Capturar.PNG');
+    background-position: center;
+    background-size:cover;
+    min-height: 670px;
+}
+
+.colum {
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.banner_headline h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    text-shadow: 3px 3px 0px #0c0c0c;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner_headline h2 {
+    color: #FFFFFF;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner_options {
+    height: 210px;
+    display: flex;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.banner_hours {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff70;
+    font-size: 13px;
+}
+
+.localizacao {
+    max-width: 300px;
+}
+
+.localidade {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.banner1 {
+    background-color: #ffbc3b;
+}
+
+.banner2 {
+    background-color: #fab22b;
+}
+
+.banner3 {
+    background-color: #f5a30c;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    background-color:#ffbc3b;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.banner_title {
+    font-size: 21px;
+}
+
+.banner_desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+
+
+.widget_title {
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    
+    width: 50px;
+    height: 2px;
+    background-color: #ffbc3b; /*linha abaixo das noticias e departamentos*/
+    margin-top: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.caixaRolagem {
+    
+     border: #ffbc3b 2px solid;
+     border-radius: 1%;
+     overflow-y:scroll;
+     
+     height: 300px;
+     
+        
+}
+.mudancaComando {
+    height: 500px;
+    background-color: red;
+}
+.title_comando h3 {
+    text-align: center;
+}
+.sub_title_comando h5 {
+    text-align: center;
+}
+
+
+
+.widget_body article {
+    
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.widget_footer {
+    
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.widget_footer a {
+    color: #36a9e1;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news_data {
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+article .news_posted_at {
+    background-color: #ffbc3b;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+    
+}
+
+article .news_comments {
+    background-color: #db9616;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news_thumbnail {
+    margin-top: 30px;
+}
+
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 23px;
+}
+
+article .news_resume {
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+    flex: 1;
+    color: #FFFFFF;
+}
+
+.fm_1 {
+    background-color: #ffbc3b;
+}
+
+.fm_2 {
+    background-color: #fab22b;
+}
+
+.fm_3 {
+    background-color: #f5a30c;
+}
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.footer_area {
+    display: flex;
+}
+
+.footer_areaitem {
+    flex: 1;
+    color: #FFFFFF;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+footer .widget_title_text {
+    color: #FFFFFF;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+
+.departaments_thumbnail {
+    height: 300px;
+    width: 300px;
+    background-color: #ffbc3b;
+    margin-bottom: 90px;
+}
+
+.widget_departaments {
+    flex: 1;
+    justify-content: center;
+}
+
+.icon_contato {
+    background-color: #c2c2c2;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_contato img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.widget_appointment {
+    padding-bottom: 30px;
+}
+
+.widget_meios_de_contato {
+    display: flex;
+    flex-direction: row;
+    line-height: 15px;
+    border-top: 1px solid #c2c2c2;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+/*.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line {
+    height: 3px;
+    background-color: #39aae1;
+}
+*/
+
+.widget_meios_de_contato_footer {
+    display: flex;
+    flex-direction: row;
+    line-height: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.border_bottom {
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.widget_footer {
+    
+    padding: 10px;
+}
+
+@media (max-width:1040px) {
+    .banner_headline {
+        padding: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .banner_headline {
+        padding: 20px;
+    }
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+    #geral section,
+    #geral aside {
+        padding: 20px;
+    }
+    .footer_menu {
+        flex-direction: column;
+    }
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy {
+        padding-left: 20px;
+    }
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    header {
+        height: auto;
+    }
+    .logo {   
+    margin-top: 50px;
+    padding-left: 20px;
+    margin-right: 40px;
+    width: 1px;
+    height: 1px;
+    
+     
+    }
+    .logo img{
+        width: 100px;
+        height: 40px;
+        margin-right: 100px;
+    }
+   
+        
+        
+    }
+    .logoCloud {
+    max-width: 30px;
+    height: 30px;
+    padding:5px;
+    
+
+    }
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #banner {
+        min-height: 900px;
+    }
+}

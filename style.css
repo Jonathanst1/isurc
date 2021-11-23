@@ -199,6 +199,7 @@ nav a:hover {
 
 #geral aside {
     flex: 1;
+    
 }
 
 
@@ -206,7 +207,7 @@ nav a:hover {
 .widget_title {
     
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .widget_title_text {
@@ -221,20 +222,19 @@ nav a:hover {
     width: 50px;
     height: 2px;
     background-color: #ffbc3b; /*linha abaixo das noticias e departamentos*/
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
 }
-.caixaRolagem {
+.caixaRolagemtwitter {
     
      border: #ffbc3b 2px solid;
      border-radius: 1%;
-     overflow-y:scroll;
-     
-     height: 300px;
+     overflow-y:scroll; 
+    height: 1100px;
      
         
 }
@@ -242,7 +242,7 @@ nav a:hover {
     
     max-height: 700px;
     background-color: #e7e7e1;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
     
 }
 .title_comando h3 {
@@ -528,6 +528,7 @@ footer .widget_title_text {
     #geral section,
     #geral aside {
         padding: 20px;
+        
     }
     .footer_menu {
         flex-direction: column;
@@ -588,11 +589,22 @@ footer .widget_title_text {
     }
     .tabelacomando {
         display: flex;
+        
+        max-width: 800px;
+        max-height: 800px;
+        border: 2px solid #db9616;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        height: 300px;
         justify-content: center;
+       
+        
     }
     .tabelacomando table{
         
         text-align: center;
+        
+        
        
         
     }

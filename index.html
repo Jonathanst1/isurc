@@ -8,7 +8,17 @@
     <title>iSURC</title>
     <link rel="stylesheet" type="text/css" href="style.css">
    
-    </script>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script> 
     
    
 </head>
@@ -39,6 +49,7 @@
                         <li><a href="">Clientes</a></li>
                         <li><a href="">Tecnologia</a></li>
                         <li><a href="">Consignado</a></li>
+                        
                     </ul>
                 </nav>
                 </div>
@@ -114,7 +125,7 @@
                            
                                 <div class="news_thumbnail">
                                     <h3>Consignado</h3>
-                                    <img src="assets/tecnologia.jpg" alt="Imagem de doutor">
+                                    <img src="assets/tecnologia.jpg" alt="Imagem de tecnologia">
                                 </div>
                                 <div class="news_title">
                                     
@@ -215,17 +226,18 @@
         </div>
     </section>
     <section id="secaogeral">
-    <div class="titulo_gerais">
+        <div class="titulogerais">
         <h3>Notícias Gerais</h3>
-    </div>     
+        </div>
+        
         <div class="espaco_gerais">
            <br><br>
-            <article> 
+            <article id="gerais1"> 
             <div class="subtitulo_gerais">
                 <h3>Tecnologia</h3>
-                <img src="assets/confiancanodigital.jpg"/>
+               
             </div>
-            <div class ="resumo_gerais">
+            <div class ="resumo_gerais1">
                 A digitalização acelerada a que assistimos no último ano e meio colocou a tecnologia num papel cada vez mais crítico para o negócio. A adoção acelerada de serviços cloud deve-se fundamentalmente ao ritmo de inovação, à agilidade e escalabilidade da Cloud.
                  <p>Fonte : </p>
             </div>
@@ -239,12 +251,12 @@
     </article>
 
 </article>
-            <article>
+            <article id="gerais2">
             <div class="subtitulo_gerais">
                 <h3>Tecnologia</h3>
-                <img src="assets/confiancanodigital.jpg"/>
+                
             </div>
-            <div class ="resumo_gerais">
+            <div class ="resumo_gerais2">
                 A digitalização acelerada a que assistimos no último ano e meio colocou a tecnologia num papel cada vez mais crítico para o negócio. A adoção acelerada de serviços cloud deve-se fundamentalmente ao ritmo de inovação, à agilidade e escalabilidade da Cloud.
                  <p>Fonte : </p>
             </div>
@@ -255,12 +267,12 @@
                 </div>
         </a>
     </article>
-    <article>
+    <article id="gerais3">
         <div class="subtitulo_gerais">
             <h3>Tecnologia</h3>
-            <img src="assets/confiancanodigital.jpg"/>
+            
         </div>
-        <div class ="resumo_gerais">
+        <div class ="resumo_gerais3">
             A digitalização acelerada a que assistimos no último ano e meio colocou a tecnologia num papel cada vez mais crítico para o negócio. A adoção acelerada de serviços cloud deve-se fundamentalmente ao ritmo de inovação, à agilidade e escalabilidade da Cloud.
              <p>Fonte : </p>
         </div>
@@ -273,7 +285,7 @@
 </article>
         </div>    
     </section>
-    <section class="teste">
+    <section class="dou2">
         <div class="mudancaComando">
             <div class="title_comando">
                 <h3>Mudança de Comando</h3>
@@ -322,6 +334,7 @@
             </div>
             </div>
         </section>
+        
         <section class="dou3">
                 <div class="title_dou3">
                     <h1>

@@ -30,8 +30,8 @@ header {
     max-height: 100px;
     padding: 10px;
     left: 20px;
-    background-color: white;
-    border-radius: 20%;
+    
+    
 
 }
 .logoCloud img {
@@ -411,20 +411,10 @@ footer .widget_title_text {
     padding-bottom: 15px;
     padding-top: 15px;
 }
-/*.menuMobile {
-    display: none;
-    width: 40px;
-    height: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 20px;
-}
 
-.mm_line {
-    height: 3px;
-    background-color: #39aae1;
-}
-*/
+
+
+
 
 .widget_meios_de_contato_footer {
     display: flex;
@@ -450,6 +440,81 @@ footer .widget_title_text {
 }
 
 @media (max-width:600px) {
+    
+    .menuMobile {
+        display: none;
+        width: 40px;
+        height: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 20px;
+    }
+    .mm_line {
+        height: 3px;
+        background-color: #db9616;
+    }
+    section#secaogeral {
+       padding-left: 1px;
+       margin-top: 100px;
+       margin-bottom: 200px;
+        
+    }
+     
+
+     
+        
+   .titulogerais {  
+       
+       text-align: center;
+       margin-bottom: 200px;
+       display: flex;
+        flex-direction: column;
+        
+    }
+    .espaco_gerais {
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .logoCloud {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin-left: 17px;
+        
+    }
+    .logoCloud img {
+        width: 50px;
+        height: 50px;
+        margin-top: -15px;
+        
+        }
+        .logo {
+            
+            position: absolute;
+            background-color: rgb(2, 2, 58);
+              margin-left: 70px;
+              
+            
+        }
+        .logo img {
+             
+
+        }
+
+        .logodataprev img {
+            position: absolute;
+           margin-top: 15px;
+            width: 65px;
+            height: 50px;
+            padding: 0px;
+            
+            
+            
+            
+        }
+
+
     .banner_headline {
         padding: 20px;
     }
@@ -490,29 +555,58 @@ footer .widget_title_text {
         position: absolute;
         left: 0;
         width: 100%;
-        background-color: #FFFFFF;
+        background-color: #db9616;
     }
     header {
         height: auto;
     }
     .logo {   
-    margin-top: 50px;
-    padding-left: 20px;
-    margin-right: 40px;
-    width: 1px;
-    height: 1px;
+        margin-top: 50px;
+        padding-left: 20px;
+        margin-right: 40px;
+        width: 1px;
+        height: 1px;
+    }
+        .logo img{
+            width: 100px;
+            height: 40px;
+            margin-right: 100px;
+        }
+        .menuMobile {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+    table#tabela2 {
+        max-width: 10px;
+        max-height: 10px;
+        text-align:center;
+            
+    }
+        table#tabela2 tr td {
+            background-color: #fff;
+        }
     
-     
-    }
-    .logo img{
-        width: 100px;
-        height: 40px;
-        margin-right: 100px;
-    }
+        table#tabela2 tr.titulotabela2 td {
+            
+            
+            background-color:#f0a71f;
+        }
+        .rolagem_dou3 {
+            max-width: 350px;
+            overflow-x: scroll;
+            overflow-y: scroll;
+            height: 300px;
+        }
+        
+}
+
+ 
    
         
         
-    }
+    
     .logoCloud {
     max-width: 30px;
     height: 30px;
@@ -520,11 +614,8 @@ footer .widget_title_text {
     
 
     }
-    .menuMobile {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+  
+
     #banner {
         min-height: 900px;
     }
@@ -534,20 +625,19 @@ footer .widget_title_text {
         background-color: #e7e7e1;
         margin: 20 0;
         
+        
     }
     .title_comando h3 {
         text-align: center;
         font-size: 30px;
-        box-shadow: 1px solid red;
+        
     }
     .sub_title_comando  h5 {
         text-align: center;
         font-size: 15px;
     }
     
-
   
-    
     .menucomando li a:hover {
         background-color: #1b1b1b;
         color: whitesmoke;
@@ -558,13 +648,26 @@ footer .widget_title_text {
     }
    
 
-    .titulo_gerais h3  {
+    .titulogerais h3  {
         text-align: center;
         background-color: white;
         font-size: 25px;
+        
     }
    
-    
+    article#gerais1 {
+        
+        
+    }
+    article#gerais2 {
+        
+        margin-left: 20px;
+        
+    }
+    article#gerais3 {
+        
+        margin-left: 20px;
+    }
      .espaco_gerais{ 
         display: flex;
           max-height:500px;
@@ -572,16 +675,41 @@ footer .widget_title_text {
           align-items: center;
           margin-bottom: 0px;
           margin-top: 0px;
-          margin-left: 9px;     
+          margin-left: 9px;    
+          
+          justify-content: center;
       }  
      
-      article .resumo_gerais {
+      article .resumo_gerais1 {
           text-align:unset;
           color:#5c5c5c ;
           line-height: 20px;
           font-size: 14px;
           margin-bottom: 30px;
+          
+          max-width: 285px;
       }
+      article .resumo_gerais2 {
+        text-align:unset;
+        color:#5c5c5c ;
+        line-height: 20px;
+        font-size: 14px;
+        margin-bottom: 30px;
+        
+        max-width: 285px;
+        
+    }
+    article .resumo_gerais3 {
+        text-align:unset;
+        color:#5c5c5c ;
+        line-height: 20px;
+        font-size: 14px;
+        margin-bottom: 30px;
+        
+        max-width: 285px;
+        
+        
+    }
    
     .menucomando li ul {
         top: 25px;
@@ -622,11 +750,10 @@ footer .widget_title_text {
         text-align: center;
    
     }
-    .rolagemtabela {
-     overflow-y: scroll;
-     height: 300px;   
-        
+    table#tabela1 {
+        max-width: 850px;
     
+     
     }
     
    table {
@@ -638,8 +765,7 @@ footer .widget_title_text {
     color: black;
    }
     table#tabela1 tr td {
-        
-        
+         
         background-color: #fff;
     }
 
@@ -648,18 +774,22 @@ footer .widget_title_text {
         background-color:#f0a71f;
     }
    .dou3 {
+       display: flex;
+       justify-content: center;
         padding-top: 100px;
         background-color: #e7e7e1;
         height: 500px;
-        width: 1430px;
+        max-width: 1420px;
         margin: 0px 0;
     }
     .title_dou3 h1 {
         text-align: center;
     }
+    table#tabela2 {
+        max-width: 850px;
+        
+    }
     table#tabela2 tr td {
-        
-        
         background-color: #fff;
     }
 
@@ -669,6 +799,16 @@ footer .widget_title_text {
     }
 .rolagem_dou3 {
     
+    overflow-x: scroll;
     overflow-y: scroll;
     height: 300px;
 }
+.rolagemtabela {
+    border: 1px solid red;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+
+    

@@ -279,6 +279,9 @@ article .news_posted_at {
     margin-right: 2px;
     
 }
+article .news_posted_at:hover {
+    background-color: #db9616;
+}
 
 article .news_comments {
     background-color: #db9616;
@@ -308,6 +311,8 @@ article .news_resume {
     line-height: 20px;
     font-size: 14px;
     margin-bottom: 30px;
+    overflow: hidden;
+    max-width: 280px;
 }
 
 footer {
@@ -448,6 +453,9 @@ footer .widget_title_text {
         margin-top: 40px;
         margin-bottom: 40px;
         margin-right: 20px;
+    }
+    article .news_posted_at:hover {
+        background-color: #db9616;
     }
     
     .mm_line {
@@ -598,30 +606,32 @@ footer .widget_title_text {
 
 
     table#tabela2 {
-        max-width:10px;
+        max-width: 10px;
         max-height: 10px;
-        text-align:center;
+        text-align: center;
         
             
     }
     table#tabela2 tr td {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
+       
     }
     table#tabela2 tr:nth-child(even) {
         background-color: rgb(211, 206, 206);
         
     }
+    
         
        
     
-        table#tabela2 tr.titulotabela2 td {
-            
-            background-color:#f0a71f;
-        }
+    table#tabela2 tr.titulotabela2 td {
+        
+        background-color:#f0a71f;
+    }
         .rolagem_dou3 {
             max-width: 350px;
-            overflow-x: scroll;
+            
             overflow-y: scroll;
             height: 300px;
         }
@@ -674,19 +684,25 @@ footer .widget_title_text {
         font-size: 25px;
         
     }
+    .subtitulo_gerais {
+        text-align: center;
+        
+    }
    
     article#gerais1 {
         
+        overflow: hidden;
         
     }
     article#gerais2 {
         
         margin-left: 20px;
-        
+        overflow: hidden;
     }
     article#gerais3 {
         
         margin-left: 20px;
+        overflow: hidden;
     }
      .espaco_gerais{ 
         display: flex;
@@ -700,12 +716,12 @@ footer .widget_title_text {
       }  
      
       article .resumo_gerais1 {
+          
           text-align:unset;
           color:#5c5c5c ;
           line-height: 20px;
           font-size: 14px;
           margin-bottom: 30px;
-          
           max-width: 285px;
       }
       article .resumo_gerais2 {
@@ -808,7 +824,7 @@ footer .widget_title_text {
    .dou3 {
        display: flex;
        justify-content: center;
-        padding-top: 100px;
+       padding-top: 100px;
         background-color: #e7e7e1;
         max-height: 500px;
         
@@ -828,10 +844,12 @@ footer .widget_title_text {
    
 
     table#tabela2 tr.titulotabela2 td {
+        
         text-align: center;
         background-color:#f0a71f;
         color: black;
         font-weight: bold;
+       
     }
 .rolagem_dou3 {
     
@@ -841,12 +859,21 @@ footer .widget_title_text {
     
 }
 .rolagemtabela {
-    
-    overflow-y:scroll ;
-    overflow-x: scroll;
+    overflow-y:scroll ; 
     height: 300px;
     max-width:900px;
 }
+td {
+    
+}
+  /*arquivo url.py contem os caminhos que eu tenho e o que qque ele vai mostrar
+  view ffica dentro de views.py e monta todos os dados que vai mandar para o templateedicaido
+  edicao sugiro criar o edição 2 
+  */
+
+
+
+
 
 
 

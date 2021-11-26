@@ -449,6 +449,7 @@ footer .widget_title_text {
         margin-bottom: 40px;
         margin-right: 20px;
     }
+    
     .mm_line {
         height: 3px;
         background-color: #db9616;
@@ -577,19 +578,44 @@ footer .widget_title_text {
             flex-direction: column;
             justify-content: space-around;
         }
+       
+    table#tabela1 tr:nth-child(even) {
+          background-color: rgb(211, 206, 206);
+     }
+    table#tabela1{
+        width: 400px;
+        height: 10px;
+        text-align: center;
+    }
+    table#tabela1 tr td {
+        display: flex;
+        flex-direction:column;
+    } 
+    table#tabela1 tr.titulotabela1 td {
+        font-weight: bold;
+        background-color:#f0a71f;
+    }
+
 
     table#tabela2 {
-        max-width: 10px;
+        max-width:10px;
         max-height: 10px;
         text-align:center;
+        
             
     }
-        table#tabela2 tr td {
-            background-color: #fff;
-        }
+    table#tabela2 tr td {
+        display: flex;
+        flex-direction: column;
+    }
+    table#tabela2 tr:nth-child(even) {
+        background-color: rgb(211, 206, 206);
+        
+    }
+        
+       
     
         table#tabela2 tr.titulotabela2 td {
-            
             
             background-color:#f0a71f;
         }
@@ -619,15 +645,9 @@ footer .widget_title_text {
     #banner {
         min-height: 900px;
     }
-    .mudancaComando {
     
-        max-height: 900px;
-        background-color: #e7e7e1;
-        margin: 20 0;
-        
-        
-    }
     .title_comando h3 {
+        
         text-align: center;
         font-size: 30px;
         
@@ -671,7 +691,6 @@ footer .widget_title_text {
      .espaco_gerais{ 
         display: flex;
           max-height:500px;
-          max-width: 1430px;
           align-items: center;
           margin-bottom: 0px;
           margin-top: 0px;
@@ -710,7 +729,18 @@ footer .widget_title_text {
         
         
     }
-   
+   .tabelacomando {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+       
+   }
+   .dou2  {
+     background-color: #e7e7e1;
+    align-items: center;
+    
+   }
     .menucomando li ul {
         top: 25px;
         left: 0;
@@ -752,6 +782,7 @@ footer .widget_title_text {
     }
     table#tabela1 {
         max-width: 850px;
+        
     
      
     }
@@ -764,22 +795,23 @@ footer .widget_title_text {
     text-decoration: none;
     color: black;
    }
-    table#tabela1 tr td {
-         
-        background-color: #fff;
+  
+    table#tabela1 tr:nth-child(even) {
+        background-color: rgb(211, 206, 206);
     }
 
     table#tabela1 tr.titulotabela1 td {
         text-align: center;
         background-color:#f0a71f;
+        font-weight: bold;
     }
    .dou3 {
        display: flex;
        justify-content: center;
         padding-top: 100px;
         background-color: #e7e7e1;
-        height: 500px;
-        max-width: 1420px;
+        max-height: 500px;
+        
         margin: 0px 0;
     }
     .title_dou3 h1 {
@@ -788,27 +820,35 @@ footer .widget_title_text {
     table#tabela2 {
         max-width: 850px;
         
+        
     }
-    table#tabela2 tr td {
-        background-color: #fff;
+    table#tabela2 tr:nth-child(even) {
+        background-color: rgb(211, 206, 206);
     }
+   
 
     table#tabela2 tr.titulotabela2 td {
         text-align: center;
         background-color:#f0a71f;
+        color: black;
+        font-weight: bold;
     }
 .rolagem_dou3 {
     
     overflow-x: scroll;
     overflow-y: scroll;
     height: 300px;
+    
 }
 .rolagemtabela {
-    border: 1px solid red;
+    
+    overflow-y:scroll ;
     overflow-x: scroll;
-    overflow-y: scroll;
     height: 300px;
+    max-width:900px;
 }
+
+
 
 
     
